@@ -1,0 +1,17 @@
+{
+  "name": "articles-api-supporting-layers",
+  "version": "1.0.0",
+  "description": "Supporting Layers assignment — refactor a scattered Express API into validators/, utils/, and config/.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["express", "validators", "utils", "config", "dotenv", "layered-architecture"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0"
+  },
+  "devDependencies": {}
+}

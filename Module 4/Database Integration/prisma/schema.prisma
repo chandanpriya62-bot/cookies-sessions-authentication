@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Complete the required models, relations, constraints, and indexes.
+// Keep the model names aligned with the assignment contract.
+model User {
+  id   Int    @id @default(autoincrement())
+  name String
+}
+
+model Post {
+  id       Int    @id @default(autoincrement())
+  title    String
+  body     String
+  authorId Int
+}

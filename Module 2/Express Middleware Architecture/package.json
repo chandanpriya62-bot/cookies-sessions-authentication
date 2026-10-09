@@ -1,0 +1,16 @@
+{
+  "name": "express-middleware-pipeline",
+  "version": "1.0.0",
+  "description": "Express Middleware Architecture — write and mount logger, request-id, and timing middleware on a two-router Express app.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["express", "middleware", "logger", "request-id", "timing", "pipeline"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {}
+}

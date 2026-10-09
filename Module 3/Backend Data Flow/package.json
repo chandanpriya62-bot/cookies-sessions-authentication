@@ -1,0 +1,15 @@
+{
+  "name": "posts-api-domain-rules",
+  "version": "1.0.0",
+  "description": "Domain Rules & Workflows assignment - encode business constraints as service-layer guards that throw AppError, and model a multi-step workflow as ordered service methods.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["express", "domain-rules", "service-layer", "workflow", "AppError"],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0"
+  }
+}
