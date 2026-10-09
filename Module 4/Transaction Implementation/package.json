@@ -1,0 +1,18 @@
+{
+  "name": "transaction-implementation-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "prisma:format": "prisma format",
+    "prisma:validate": "prisma validate",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.9.0"
+  }
+}
